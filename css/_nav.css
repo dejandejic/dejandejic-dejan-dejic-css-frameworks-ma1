@@ -1,0 +1,20 @@
+.navbar-brand {
+  font-size: 32px;
+}
+
+.navbar {
+  background-color: var(--nav-color) !important;
+  color: #333333;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+  font-size: 15px;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: var(--primary-color-hover);
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
